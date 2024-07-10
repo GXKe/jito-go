@@ -3,7 +3,7 @@ package pkg
 import (
 	bin "github.com/gagliardetto/binary"
 	"github.com/gagliardetto/solana-go"
-	"github.com/weeaa/jito-go/pb"
+	"github.com/gxke/jito-go/pb"
 )
 
 // ConvertTransactionToProtobufPacket converts a solana-go Transaction to a pb.Packet.

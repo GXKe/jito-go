@@ -7,16 +7,17 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/weeaa/jito-go/pb"
 	"io"
 	"math/rand"
 	"net/http"
 	"time"
 
+	"github.com/gxke/jito-go/pb"
+
 	"github.com/gagliardetto/solana-go"
 	"github.com/gagliardetto/solana-go/programs/system"
 	"github.com/gagliardetto/solana-go/rpc"
-	"github.com/weeaa/jito-go/pkg"
+	"github.com/gxke/jito-go/pkg"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

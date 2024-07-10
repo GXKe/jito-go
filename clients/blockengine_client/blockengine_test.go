@@ -2,15 +2,16 @@ package blockengine_client
 
 import (
 	"context"
-	"github.com/gagliardetto/solana-go"
-	"github.com/joho/godotenv"
-	"github.com/stretchr/testify/assert"
-	"github.com/weeaa/jito-go"
 	"os"
 	"path/filepath"
 	"runtime"
 	"testing"
 	"time"
+
+	"github.com/gagliardetto/solana-go"
+	"github.com/gxke/jito-go"
+	"github.com/joho/godotenv"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestMain(m *testing.M) {

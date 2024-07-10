@@ -1,8 +1,8 @@
 package blockengine_client
 
 import (
-	"github.com/weeaa/jito-go/pb"
-	"github.com/weeaa/jito-go/pkg"
+	"github.com/gxke/jito-go/pb"
+	"github.com/gxke/jito-go/pkg"
 	"google.golang.org/grpc"
 )
 
