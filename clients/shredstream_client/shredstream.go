@@ -6,8 +6,8 @@ import (
 
 	"github.com/gagliardetto/solana-go"
 	"github.com/gagliardetto/solana-go/rpc"
+	proto "github.com/gxke/jito-go/pb"
 	"github.com/gxke/jito-go/pkg"
-	"github.com/gxke/jito-go/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )
